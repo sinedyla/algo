@@ -28,8 +28,8 @@ Mon but est d’apprendre à :
 
 Je suis preneur de toute aide ou conseil !  
 Vous pouvez :
-- Ouvrir une **[issue](https://github.com/sinedyla/votre-repo/issues)** pour poser une question ou signaler un problème
-- Faire une **[pull request](https://github.com/sinedyla/votre-repo/pulls)** si vous voulez corriger ou ajouter quelque chose
+- Ouvrir une **[issue](https://github.com/sinedyla/algo/issues)** pour poser une question ou signaler un problème
+- Faire une **[pull request](https://github.com/sinedyla/algo/pulls)** si vous voulez corriger ou ajouter quelque chose
 - Partager vos conseils ou bonnes pratiques dans les discussions
 - Proposer de nouveaux algorithmes à implémenter
 ---
@@ -45,7 +45,7 @@ Merci à toutes les personnes qui prendront le temps de m’aider ou de me conse
     <img src="https://github-readme-stats.vercel.app/api?username=sinedyla&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" width="49%" />
   </a>
   <a href="https://github.com/sinedyla/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sinedyla&layout=compact&theme=buefy&hide_border=true" width="49%" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sinedyla&layout=compact&theme=buefy&hide_border=true&cache_seconds=10" />
   </a>
 </div>
 
