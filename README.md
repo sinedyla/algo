@@ -51,4 +51,4 @@ Merci à toutes les personnes qui prendront le temps de m’aider ou de me conse
 
 ---
 
-*Projet démarré en 2025 — par [FARA KA](https://github.com/sineydla)*
+*Projet démarré en 2025 — par [FARA KA](https://github.com/sinedyla)*
