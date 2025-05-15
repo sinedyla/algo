@@ -2,14 +2,7 @@
 *.idea
 *.vscode
 *.exe
-
-
-# Ignorer les fichiers objets compilés
 *.o
-
-# Ignorer les fichiers générés par Code Runner (optionnel)
 tempCodeRunnerFile.*
-
-# Ignorer les sauvegardes d'éditeurs (optionnel)
 *~
-
+*.class
