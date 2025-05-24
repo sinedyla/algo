@@ -42,10 +42,10 @@ Merci à toutes les personnes qui prendront le temps de m’aider ou de me conse
 **Mes stats d'apprentissage**
 <div align="center">
   <a href="https://github.com/sinedyla/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=sinedyla&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" width="49%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=sinedyla&show_icons=true&include_all_commits=true&theme=gruvbox&hide_border=true" width="100%"/>
   </a>
   <a href="https://github.com/sinedyla/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sinedyla&layout=compact&theme=buefy&hide_border=true&cache_seconds=10" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sinedyla&layout=compact&theme=gruvbox&hide_border=true&cache_seconds=10" width="100%"/>
   </a>
 </div>
 
