@@ -23,3 +23,9 @@ def afficher_resultats(resultats, frequence=None):
         print(f"Fréquence relative des faces : {frequence['face']:.2f}")
         print(f"Fréquence relative des piles : {frequence['pile']:.2f}")
 
+
+if __name__ == "__main__":
+    n = int(input("Combien de lancers voulez vous simuler ? "))
+    resultats = simuler_lancers(n)
+    frequence = calculer_frequence(resultats, n)
+    afficher_resultats(resultats, frequence)
