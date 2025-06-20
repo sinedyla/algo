@@ -8,3 +8,9 @@ def simuler_lancers(n):
         resultat = lancer_piece()
         resultats[resultat] += 1
     return resultats
+
+def calculer_frequence(resultats, n):
+    frequence = {}
+    frequence['face'] = resultats['face'] / n
+    frequence['pile'] = resultats['pile'] / n
+    return frequence
