@@ -25,3 +25,12 @@ def afficher_resultats(resultats, frequence=None):
         print("\nFréquences relatives :")
         for valeur in sorted(frequence):
             print(f"Fréquence de {valeur} : {frequence[valeur]:.2f}")
+
+
+
+if __name__ == "__main__":
+    n = int(input("Combien de lancers de dé voulez-vous simuler ? "))
+    resultats = simuler_lancers(n)
+    frequence = calculer_frequence(resultats, n)
+    
+    afficher_resultats(resultats, frequence)
