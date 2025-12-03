@@ -27,7 +27,10 @@ if __name__ == "__main__":
     print()
     
     # Demander le nom de l'utilisateur
-    nom = input("Comment vous appelez-vous ? ")
-    if nom:
-        print()
-        dire_bonjour_personnalise(nom)
+    try:
+        nom = input("Comment vous appelez-vous ? ")
+        if nom:
+            print()
+            dire_bonjour_personnalise(nom)
+    except (EOFError, KeyboardInterrupt):
+        print("\nAu revoir !")

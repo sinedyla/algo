@@ -28,8 +28,11 @@ int main() {
     printf("Comment vous appelez-vous ? ");
     
     if (fgets(nom, sizeof(nom), stdin) != NULL) {
-        // Enlever le caractère de nouvelle ligne
-        nom[strcspn(nom, "\n")] = 0;
+        // Enlever le caractère de nouvelle ligne si présent
+        size_t len = strlen(nom);
+        if (len > 0 && nom[len - 1] == '\n') {
+            nom[len - 1] = '\0';
+        }
         
         if (strlen(nom) > 0) {
             printf("\n");
