@@ -6,4 +6,5 @@
 tempCodeRunnerFile.*
 *~
 *.class
-*.exe_codeql_detected_source_root
+*.exe
+_codeql_detected_source_root
