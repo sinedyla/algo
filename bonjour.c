@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#define MAX_NAME_LENGTH 100
+
 /**
  * Programme de bienvenue simple
  * Un premier programme pour apprendre les bases du C
@@ -12,13 +14,13 @@ void dire_bonjour() {
     printf("Hello! Welcome to this algorithm learning repository!\n");
 }
 
-void dire_bonjour_personnalise(char *nom) {
+void dire_bonjour_personnalise(const char *nom) {
     printf("Bonjour %s ! 👋\n", nom);
     printf("Ravi de vous voir ici !\n");
 }
 
 int main() {
-    char nom[100];
+    char nom[MAX_NAME_LENGTH];
     
     // Message de bienvenue simple
     dire_bonjour();
