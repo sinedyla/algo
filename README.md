@@ -24,6 +24,23 @@ Mon but est d’apprendre à :
 ---
 
 
+## Commencer
+
+Pour commencer votre apprentissage, lancez un de nos programmes de bienvenue :
+
+**Python :**
+```bash
+python3 bonjour.py
+```
+
+**C :**
+```bash
+gcc -o bonjour bonjour.c && ./bonjour
+```
+
+---
+
+
 ## Comment m’aider
 
 Je suis preneur de toute aide ou conseil !  
